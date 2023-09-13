@@ -21,7 +21,7 @@ function setUserName() {
 
 localStorage.setItem("name", myName);
 
-myHeading.textContent =`javascript é muito legal, ${myName}`
+myHeading.textContent =`Angular é muito legal, ${myName}`
 
 
 if (!localStorage.getItem("name")){
